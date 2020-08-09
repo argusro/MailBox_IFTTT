@@ -9,6 +9,14 @@ the new bin file in a web server and a file including the firmware version.<br/>
 If version differ from the one stored on the local virtual EEPROM the new firmware<br/>
 will be pulled and installed.<br/>
 Use ESP-01 with memory > 1MB<br/>
+Arduino IDE was used<br/>
+
+Libraries:<br/>
+<ESP8266WiFi.h>        - wifi with ESP8266<br/>
+<ArduinoOTA.h>             - OTA firmware update<br/>
+<EEPROM.h>                  - non-volatile  memory storage<br/>
+<ESP8266httpUpdate.h>       - http update<br/>
+<ESP8266HTTPClient.h>     - http call<br/>
 
 This program is free software; you can redistribute it and/or<br/>
 modify it under the terms of the GNU General Public License<br/>
