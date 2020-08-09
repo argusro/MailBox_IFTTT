@@ -24,7 +24,7 @@
 #include <ESP8266WiFi.h>            // wifi with ESP8266
 #include <ArduinoOTA.h>             // OTA firmware update
 #include <EEPROM.h>                 // non-volatile  memory storage
-#include <ESP8266httpUpdate.h>      // firmware update
+#include <ESP8266httpUpdate.h>      // http update
 #include <ESP8266HTTPClient.h>      // http call
 
 //#define DEBUG                       // uncomment this line to debug
